@@ -11,6 +11,11 @@ function App() {
 
   const addValue = () =>{
     
+    //can also take callback
+    //also send data in the form of batch
+    //prevCounter is last updated state
+    // setCounter((prevCount) => prevCounter + 1)
+
     counter = counter + 1;
     setCounter(counter)
     console.log("clicked", counter);
